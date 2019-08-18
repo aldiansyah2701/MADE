@@ -1,0 +1,221 @@
+<resources>
+    <string name="app_name">Movie Catalogue</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_movies">MOVIES</string>
+    <string name="title_tvSeries">TV SHOWS</string>
+
+    <string name="movie">movie</string>
+    <string name="movie_description">movie description</string>
+    <string name="description">description</string>
+    <string name="director">director</string>
+    <string name="director_name">director name</string>
+    <string name="movie_year">movie year</string>
+    <string name="broadcast_year">broadcast year</string>
+
+    <string name="choose">choose</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="change_language_settings">Change Language Settings</string>
+    <string name="name_movies">Name Movie</string>
+    <string name="lorem">Movie theater</string>
+
+    <string-array name="data_name_movie">
+        <item>Aladdin</item>
+        <item>Captain Marvel</item>
+        <item>How to Train Your DRAGON</item>
+        <item>Avengers END GAME</item>
+        <item>Hell Boy</item>
+        <item>Si Doel</item>
+        <item>Spider Man</item>
+        <item>Black Panther</item>
+        <item>Dragon Ball Z</item>
+        <item>Habibie and Ainun</item>
+        <item>Surga yang Dirindukan 2</item>
+
+    </string-array>
+    <string-array name="data_description_movie">
+        <item>Aladdin is a 2019 American musical fantasy film directed by Guy Ritchie, who co wrote the screenplay with John August. Produced by Walt Disney Pictures.</item>
+        <item>Captain Marvel is a 2019 American superhero film based on the Marvel Comics character Carol Danvers. Produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures.</item>
+        <item>How to Train Your Dragon: The Hidden World is a 2019 American computer-animated action fantasy film loosely based on the book series of the same name by Cressida Cowell.</item>
+        <item>Avengers: Endgame is a film on the Avengers franchise that began in The Avengers in 2012. Films directed by Russo brothers and Marvel studios production.</item>
+        <item>Hellboy (released as Hellboy : Call of Darkness in some markets) is a 2019 American superhero film based on the Dark Horse Comics character.</item>
+        <item>Si Doel The Movie is an Indonesian family drama film which is a sequel to the continuation of the phenomenal soap opera in the 1990s Si Doel Anak Sekolah.</item>
+        <item>Spider-Man: Far From Home is a United States superhero film based on Marvel Comics character Spider-Man, a collaboration between Columbia Pictures and Marvel Studios.</item>
+        <item>Black Panther is a United States superhero film in 2018 based on Marvel Comics characters. Produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures.</item>
+        <item>Resurrection F is the second film personally supervised by series creator Akira Toriyama, following Battle of Gods in 2013. </item>
+        <item>The film stars Reza Rahardian, Bunga Citra Lestari and Tio Pakusadewo. At the launch, the film was witnessed by the 6th President of the Republic of Indonesia, Susilo Bambang Yudhoyono.</item>
+        <item>Heaven that is not missed 2 is a religious drama film which is a sequel to the 2015 Indonesian box office Heaven that is not missed.</item>
+
+    </string-array>
+    <string-array name="data_sinopsis_movie">
+        <item>Aladdin, a kind-hearted young street rat living in the Arabian city of Agrabah, along with his pet monkey Abu, rescues and befriends Princess Jasmine, who has snuck out of the palace to explore, tired of her sheltered life. Meanwhile, the Grand vizier Jafar schemes to overthrow Jasmines father as the Sultan. He and his pet parrot Iago seek a magic lamp hidden in the Cave of Wonders that will grant his wishes. Only one person is worthy to enter: "the diamond in the rough, whom he decides is Aladdin. Aladdin is captured and Jafar persuades him to retrieve the lamp. Inside the cave, Aladdin finds a magic carpet and obtains the lamp. He gives it to Jafar, who betrays him and throws him back into the cave, though Abu steals the lamp back.</item>
+
+        <item>In 1995, on the Kree Empires capital planet of Hala, Starforce member Vers suffers from amnesia and recurring nightmares involving an older woman. Yon-Rogg, her mentor and commander, trains her to control her abilities while the Supreme Intelligence, the artificial intelligence that rules the Kree, urges her to keep her emotions in check.
+            During a mission to rescue an undercover operative infiltrating a group of Skrulls, alien shapeshifters with whom the Kree are at war, Vers is captured by Skrull commander Talos. A probe of Vers memories leads them to Earth. Vers escapes and crash-lands in Los Angeles. Her presence attracts S.H.I.E.L.D.
+            agents Nick Fury and Phil Coulson, whose investigation is interrupted by a Skrull attack. In the ensuing chase, Vers recovers a crystal containing her extracted memories while Fury kills a Skrull impersonating Coulson. Talos, disguised as Furys boss Keller, orders Fury to work with Vers and keep tabs on her.</item>
+
+        <item>One year after the events of the previous film, Hiccup, Toothless and their fellow dragon-riders continue to rescue captured dragons in order to bring them to Berk and its bustling dragon and human utopia.
+            Their efforts have resulted in the island becoming overpopulated with dragons. In a response to the overcrowding, Hiccup aspires to find the "Hidden World", a safe haven for dragons spoken of by his late father Stoick. Meanwhile, a white female Fury, held captive by warlords, is given to infamous dragon hunter Grimmel the Grisly as bait for him to capture Toothless for the warlords use as an alpha.</item>
+
+        <item>Half of all life in the universe was destroyed when Thanos used Batu Infinity, including Clint Bartons family. Twenty three days later, Carol Danvers saved the Nebula and Tony Stark, who were stranded outside
+            space after their fight with Thanos. They joined Natasha Romanoff, Bruce Banner, Steve Rogers, Rocket, Thor, Pepper Potts, and James Rhodes on Earth. The group found Thanos in a remote planet and
+            planned to seize and use Infinity stones and reverse his actions, but Thanos had destroyed the stone to prevent it from being reused. Angry Thor finally beheaded Thanos.</item>
+
+        <item>In the Dark Ages, the evil Blood Queen Nimue unleashes a plague on England until King Arthur stops her with the aid of Ganeida, a member of her coven. Arthur uses Excalibur to dismember Nimue, and hides her remains across England.</item>
+
+        <item>Fourteen years ago Sarah (Cornelia Agatha) went without clear news and farewells, keeping a longing in the hearts of Doel (H. Rano Karno) who was married to Zaenab (Maudy Koesnaedi). Through Hans (Adam Jagwani), Sarah asked Doel to be brought to the Netherlands. to bring him together with Dul (Rey Bong), the child the result of his marriage to Doel. So, on the pretext of business affairs, Hans invited Doel to come to Belandasib as a nation.</item>
+
+        <item>Shortly after the Avengers: Endgame event, Peter Parker, who mourned the death of his mentor Tony Stark, made a school trip to Europe with his classmates. While abroad, he was recruited by Nick Fury to work with Quentin Beck, also known as Mysterio, an expert on deception and illusion to fight Elementals.</item>
+
+        <item>Thousands of years ago, five tribes in Africa fought over a meteor containing vibranium in it. A soldier then swallowed "heart shaped herbs" which were exposed to metal effects and obtained the superhuman abilities that made him the first "Black Panther". He unites all the tribes, except the Jabari tribe to form a country called Wakanda.</item>
+
+        <item>The remnants of Frieza army, led by an alien named Sorbet, head to Earth where they convince Pilaf, Mai, and Shu, who have collected the Dragon Balls, to summon the wish-granting dragon Shenron. Sorbet makes a wish to revive Frieza, but Shenron can only bring
+            him back to life in the form of the pieces that Future Trunks cut up, which Sorbets minions reassemble using their advanced technology over the following two months. Once restored, Frieza plans revenge against the Super Saiyans, but upon learning that Goku has gotten stronger to the point of defeating Majin Buu and fighting Beerus the God of Destruction to a stalemate (as Buu and Beerus were the only two beings in the universe Frieza was warned by his father never to cross), he postpones the invasion so he can train himself for the first time in his life.</item>
+
+        <item>Rudy Habibie is an aircraft genius who has big dreams: serving the Indonesian people by making airplanes to unite Indonesia. Whereas Ainun is a bright young doctor with a career path wide open for him.
+        In 1962, these two middle school friends met again in Bandung. Habibie fell in love with Ainun who was as sweet as sugar for him. But Ainun, he did not just fall in love, he believed in Habibies vision and dreams. They married and flew to Germany.</item>
+        <item>Meirose (Raline Shah) comes back to Pras (Fedi Nuril) and Arinis house (Laudya Cynthia Bella). His arrival meant to take Akbar, his son who had been cared for by the couple. But this time Arini persuaded and asked Meirose to return to Pras.
+            Meirose is in doubt. He is now doubtful about his choice of life between living the future which he himself does not know what it will be, or returning to Pras but not until the heart breaks Arinis happiness. Meirose was even more confused when Pras, the man he still loved, appeared in front of him.</item>
+
+    </string-array>
+    <string-array name="data_sutradara_movie">
+        <item>Guy Ritchie</item>
+        <item>Anna Boden Ryan Fleck</item>
+        <item>Dean DeBlois</item>
+        <item>Anthony Russo Joe Russo</item>
+        <item>Neil Marshall</item>
+        <item>H.Rano Karno</item>
+        <item>Jon Watts</item>
+        <item>Ryan Coogler</item>
+        <item>Tadayoshi Yamamuro</item>
+        <item>Faozan Rizal</item>
+        <item>Hanung Bramantyo</item>
+
+    </string-array>
+    <string-array name="data_tahun_movie">
+        <item>24 Mei 2019</item>
+        <item>8 Maret 2019</item>
+        <item>22 February 2019</item>
+        <item>24 April 2019</item>
+        <item>9 April 2019</item>
+        <item>2 Agustus 2018</item>
+        <item>2 Juli 2019</item>
+        <item>29 Januari 2018</item>
+        <item>18 April 2015</item>
+        <item>20 Desember 2012</item>
+        <item>9 Februari 2017</item>
+
+    </string-array>
+    <array name="data_photo_movie">
+        <item>@drawable/aladin</item>
+        <item>@drawable/captainmarvel</item>
+        <item>@drawable/dragon</item>
+        <item>@drawable/endgame</item>
+        <item>@drawable/hellboy</item>
+        <item>@drawable/sidoel</item>
+        <item>@drawable/spiderman</item>
+        <item>@drawable/blackpanther</item>
+        <item>@drawable/dragonball</item>
+        <item>@drawable/habibie</item>
+        <item>@drawable/surga</item>
+    </array>
+
+    //-==================================================================================================================================
+
+    <string-array name="data_name_tv">
+        <item>All american</item>
+        <item>2 Broke girls</item>
+        <item>Fringe</item>
+        <item>Lagasa de Papel</item>
+        <item>Dc Legends</item>
+        <item>Lost</item>
+        <item>The Tick</item>
+        <item>Psych</item>
+        <item>Sherlock</item>
+        <item>Timeless</item>
+        <item>Titans</item>
+
+    </string-array>
+    <string-array name="data_description_tv">
+
+        <item> All American is an American television drama series, made by April Blair which premiered at The CW on October 10, 2018. </item>
+        <item> 2 Broke Girls is a United States television comedy (situation comedy) created for Warner Bros. Television by Michael Patrick King and Whitney Cummings. </item>
+        <item> Fringe is an American science fiction television series created by J. J. Abrams, Alex Kurtzman, and Roberto Orci. </item>
+        <item> A CASA DE PAPEL season 2 is a decent Spanish crime drama for parties that have fans tuning into their millions. The first two seasons on Netflix now. </item>
+        <item> DCs Legends of Tomorrow, or just Legends of Tomorrow, is an American superhero television series developed by Greg Berlanti. </item>
+        <item> Lost is an American television series about a group of survivors from an airplane accident while traveling from Sydney to Los Angeles. </item>
+        <item> The Tick is an American web television series created for Amazon Video by Ben Edlund, based on the comic book character with the same name. </item>
+        <item> Psych is an American detective drama comedy television series created by Steve Franks and broadcast on the USA Network. </item>
+        <item> Sherlock is a British crime drama television series that adapts the story of Sir Arthur Conan Doyles Sherlock Holmes adventure. </item>
+        <item> Timeless is an American science fiction time series drama that premiered on NBC on October 3, 2016. </item>
+        <item> Titans are American web television series made by Akiva Goldsman, Geoff Johns, and Greg Berlanti for DC Universe. </item>
+
+    </string-array>
+    <string-array name="data_sinopsis_tv">
+
+        <item> "When a rising American soccer player from South LA was recruited to play Beverly Hills High, victory, defeat and the struggle of two families from the world of Crenshaw and very different Beverly Hills began to collide. Inspired by the lives of soccer players professional Spencer Paysinger. </item>
+
+        <item> The series tells the life of two servants in their 20s (at the beginning of the series): Max Black (Kat Dennings), son of a poor working class mother and unknown father, and Caroline Channing (Beth Behrs), who born rich but is now humiliated and has no money because his father, Martin Channing, was caught running Bernard Madoffs Ponzi scheme. Both work together in a Brooklyn restaurant, soon become roommates and friends while building towards their dreams of going to one day open a cake shop. </item>
+
+        <item> Fringe follows the duties of the Fringe Division, the Federal Joint Task Force supported mainly by the Federal Investigation Bureau, which includes Agent Olivia Dunham; Walter Bishop, typical crazy scientist; and Peter Bishop, Walters estranged son and jack-of-all-trade. </item>
+
+        <item> Speaking at last months announcement, Ted Sarandos, Chief Content Officer at Netflix said: "With more than 100 European projects launched this year, we are committed to being a voice for European entertainment. </item>
+
+        <item> In the second season, with Time Masters defeated, the team maintained their own timeline, and overcame Rips absence after he disappeared. White Canary (Caity Lotz) became the leader of legend. However, they were confronted by the Doom Legion, a time exploration team led by Reverse Flash (Eobard Thawne), who had recruited a version of Damien Darhk, Malcolm Merlyn, and Leonard Snart to find the Biblical Spear of Destiny, with which they could change their destiny. </item>
+
+        <item> Season 1 began after a plane crash, which caused passengers on Oceanic Airlines flight 815 to be stranded on an apparently uninhabited island. Jack Shepard, a doctor who is a leader. Their safety is threatened by various mysterious forms including polar bears, invisible creatures that roam the forest ("Smoke Monster"), and evil inhabitants known as "The Others". </item>
+
+        <item> In a world where superheroes and super real, temporal temperature Arthur, who is not simply traumatized by supervillain The Terror, after witnessing his actions caused his fathers death when he was a child. While the authorities and Superian Superian believe Terror is dead, Arthur tracks the evidence of a conspiracy theory that he is still alive. </item>
+
+        <item> Most episodes begin with a cold opening in the form of flashbacks to Shawn and Guss childhood. Flashbacks usually involve Shawn and Gus taught a lesson by young Henry Spencer (Shawns father), who hopes his son will follow in his footsteps and become a law enforcement officer. This lesson often plays a role for the climax of the episode. As a child, Shawn was taught by Henry to hone his observation and deduction skills, often using games and challenges to test them. Each flashback also sets the theme for the episode. </item>
+
+        <item> The drama series made on the initiative of Steven Moffat and Gatiss Mark starred Benedict Cumberbatch as Sherlock Holmes and Martin Freeman as dr. Watson. Until now, nine episodes have been produced, the first three series episodes aired in 2010, the second three episodes in 2012, and the third three episodes in 2014. The third series has become the most watched drama series in the United Kingdom since 2001. </item>
+
+        <item> Although NBC canceled the series after one season, three days later, after negotiating with Sony Pictures Television, NBC renewed the series for the second ten-episode season, which premiered on March 11, 2018. In June 2018, the series was canceled again by NBC. In July, NBC announced it had ordered the final two parts to conclude the series, which aired on December 20, 2018. </item>
+        <item> Titans focuses on a group of young superheroes who form a team of titular superheroes to fight crime and other dangers. The teams first incarnation that appeared in this series consisted of Dick Grayson, Batmans former vigilante partner who became police detective, Kory Anders, an extraterrestrial who was affected by amnesia, Rachel Roth, an empathetic chase by dangerous forces, and Garfield "Gar" Logan , a previous shapeshifter with Doom Patrol. </item>
+    </string-array>
+    <string-array name="data_sutradara_tv">
+        <item>Ramsey Nickell</item>
+        <item>Chris La Fountaine</item>
+        <item>J. J. Abrams</item>
+        <item>Anthony Russo Joe Russo</item>
+        <item>Grainne Godfree</item>
+        <item>H.Rano Karno</item>
+        <item>Jon Watts</item>
+        <item>Ryan Coogler</item>
+        <item>Tadayoshi Yamamuro</item>
+        <item>Faozan Rizal</item>
+        <item>Hanung Bramantyo</item>
+
+    </string-array>
+    <string-array name="data_tahun_tv">
+        <item>10 October 2018</item>
+        <item>19 September 2011</item>
+        <item>9 September 2008</item>
+        <item>24 April 2019</item>
+        <item>9 April 2019</item>
+        <item>2 Agustus 2018</item>
+        <item>2 Juli 2019</item>
+        <item>29 Januari 2018</item>
+        <item>18 April 2015</item>
+        <item>20 Desember 2012</item>
+        <item>9 Februari 2017</item>
+
+    </string-array>
+    <array name="data_photo_tv">
+        <item>@drawable/allamerican</item>
+        <item>@drawable/brokegirls</item>
+        <item>@drawable/fringe</item>
+        <item>@drawable/legasa</item>
+        <item>@drawable/legends</item>
+        <item>@drawable/lost</item>
+        <item>@drawable/overkill</item>
+        <item>@drawable/psych</item>
+        <item>@drawable/sherlock</item>
+        <item>@drawable/timeless</item>
+        <item>@drawable/titans</item>
+
+    </array>
+</resources>

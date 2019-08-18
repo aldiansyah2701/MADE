@@ -1,0 +1,220 @@
+<resources>
+    <string name="app_name">Katalog Film</string>
+    <string name="title_home">Beranda</string>
+    <string name="title_dashboard">Dasbor</string>
+    <string name="title_notifications">Notifikasi</string>
+    <string name="title_movies">FILM</string>
+    <string name="title_tvSeries">ACARA TV</string>
+
+    <string name="movie">film</string>
+    <string name="movie_description">deskripsi film</string>
+    <string name="description">deskripsi</string>
+    <string name="director">sutradara</string>
+    <string name="director_name">nama sutradara</string>
+    <string name="movie_year">tahun film</string>
+    <string name="broadcast_year">tahun tayang</string>
+
+    <string name="choose">memilih</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="change_language_settings">Ubah Pengaturan Bahasa</string>
+    <string name="name_movies">Nama Movie</string>
+    <string name="lorem">Film bioskop</string>
+
+    <string-array name="data_name_movie">
+        <item>Aladdin</item>
+        <item>Captain Marvel</item>
+        <item>How to Train Your DRAGON</item>
+        <item>Avengers END GAME</item>
+        <item>Hell Boy</item>
+        <item>Si Doel</item>
+        <item>Spider Man</item>
+        <item>Black Panther</item>
+        <item>Dragon Ball Z</item>
+        <item>Habibie and Ainun</item>
+        <item>Surga yang Dirindukan 2</item>
+
+    </string-array>
+    <string-array name="data_description_movie">
+        <item>Aladdin adalah film fantasi musikal Amerika tahun 2019 yang disutradarai oleh Guy Ritchie, yang ikut menulis skenario dengan John August. Diproduksi oleh Walt Disney Pictures.</item>
+        <item>Captain Marvel adalah film superhero Amerika 2019 yang didasarkan pada karakter Marvel Comics, Carol Danvers. Diproduksi oleh Marvel Studios dan didistribusikan oleh Walt Disney Studios Motion Pictures.</item>
+        <item>How to Train Your Dragon: The Hidden World adalah film fantasi aksi animasi komputer Amerika tahun 2019 yang didasarkan pada seri buku dengan nama yang sama oleh Cressida Cowell.</item>
+        <item>Avengers: Endgame merupakan suatu film pada waralaba Avengers yang dimulai sejak The Avengers pada tahun 2012. Film yang disutradai oleh Russo bersaudara dan produksi Marvel studios.</item>
+        <item>Hellboy (dirilis sebagai Hellboy: Call of Darkness di beberapa pasar) adalah film superhero Amerika tahun 2019 berdasarkan karakter Dark Horse Comics.</item>
+        <item>Si Doel The Movie adalah film drama keluarga Indonesia yang merupakan sekuel dari kelanjutan Sinetron fenomenal di era 1990an Si Doel Anak Sekolahan.</item>
+        <item>Spider-Man: Far From Home adalah sebuah film pahlawan super Amerika Serikat yang berdasarkan pada karakter Marvel Comics Spider-Man, hasil kerjasama produksi dari Columbia Pictures dan Marvel Studios.</item>
+        <item>Black Panther adalah film superhero Amerika Serikat tahun 2018 berdasarkan karakter Marvel Comics. Diproduksi oleh Marvel Studios dan didistribusikan oleh Walt Disney Studios Motion Pictures.</item>
+        <item>Resurrection F adalah film kedua yang diawasi secara pribadi oleh pencipta seri Akira Toriyama, setelah Battle of Gods pada 2013. </item>
+        <item>Film ini dibintangi oleh Reza Rahardian, Bunga Citra Lestari dan Tio Pakusadewo. Pada peluncurannya, film ini disaksikan oleh Presiden Republik Indonesia ke-6, Susilo Bambang Yudhoyono.</item>
+        <item>Surga yang Tak Dirindukan 2 adalah sebuah film drama religi yang merupakan sekuel dari box office Indonesia tahun 2015 Surga Yang Tak Dirindukan.</item>
+
+    </string-array>
+    <string-array name="data_sinopsis_movie">
+        <item>Aladdin, seekor tikus jalanan yang baik hati yang tinggal di kota Arab, Agrabah, bersama dengan monyet peliharaannya, Abu, menyelamatkan dan berteman dengan Putri Jasmine, yang menyelinap keluar dari istana untuk menjelajah, lelah dengan kehidupan yang terlindung. Sementara itu, wazir agung Jafar berencana menggulingkan ayah Jasmines sebagai Sultan. Dia dan burung beo peliharaannya, Iago mencari lampu ajaib yang tersembunyi di Gua Keajaiban yang akan mengabulkan keinginannya. Hanya satu orang yang layak untuk masuk: "berlian di kasar, yang dia putuskan adalah Aladdin. Aladdin ditangkap dan Jafar membujuknya untuk mengambil lampu. Di dalam gua, Aladdin menemukan karpet ajaib dan mendapatkan lampu. Dia memberikannya untuk Jafar, yang mengkhianatinya dan melemparkannya kembali ke gua, meskipun Abu mencuri lampu kembali.</item>
+
+        <item>Pada tahun 1995, di planet ibu kota Kerajaan Kree Empires Hala, anggota Starforce Vers menderita amnesia dan mimpi buruk berulang yang melibatkan seorang wanita yang lebih tua. Yon-Rogg, mentor dan komandannya, melatihnya untuk mengendalikan kemampuannya sementara Intelejen Tertinggi, kecerdasan buatan yang mengatur Kree, mendesaknya untuk mengendalikan emosinya.
+            Selama misi untuk menyelamatkan seorang agen rahasia yang menyusup ke sebuah kelompok Skrulls, alien berubah-ubah dengan siapa Kree berperang, Vers ditangkap oleh komandan Skrull, Talos. Penyelidikan ingatan Vers membawa mereka ke Bumi. Vers lolos dan crash-tanah di Los Angeles. Kehadirannya menarik S.H.I.E.L.D.
+            agen Nick Fury dan Phil Coulson, yang penyelidikannya terganggu oleh serangan Skrull. Dalam pengejaran berikutnya, Vers memulihkan kristal yang berisi ingatannya yang diekstraksi sementara Fury membunuh seorang Skrull yang menyamar sebagai Coulson. Talos, yang menyamar sebagai bos Furys Keller, memerintahkan Fury untuk bekerja dengan Vers dan mengawasi dia.</item>
+
+        <item>Satu tahun setelah peristiwa film sebelumnya, Hiccup, Toothless dan sesama penunggang naga mereka terus menyelamatkan naga yang ditangkap untuk membawa mereka ke Berk dan naga yang sibuk dan utopia manusia.
+            Upaya mereka telah menyebabkan pulau itu menjadi penuh sesak dengan naga. Sebagai tanggapan terhadap kepadatan penduduk, Hiccup bercita-cita untuk menemukan "Dunia Tersembunyi", surga yang aman bagi naga yang dibicarakan oleh mendiang ayahnya Stoick. Sementara itu, Fury wanita kulit putih, yang ditawan oleh panglima perang, diberikan kepada pemburu naga yang terkenal Grimmel Grisly sebagai umpan baginya untuk menangkap Toothless untuk panglima perang yang digunakan sebagai alpha.</item>
+
+        <item>Setengah dari semua kehidupan di alam semesta hancur ketika Thanos menggunakan Batu Infinity, termasuk keluarga Clint Barton. Dua puluh tiga hari kemudian, Carol Danvers menyelamatkan Nebula dan Tony Stark, yang terdampar di luar
+            angkasa setelah pertarungan mereka dengan Thanos. Mereka bergabung dengan Natasha Romanoff, Bruce Banner, Steve Rogers, Rocket, Thor, Pepper Potts, dan James Rhodes di Bumi. Kelompok itu menemukan Thanos disebuah planet terpencil dan
+            berencana untuk merebut dan menggunakan batu Infinity dan membalikkan tindakannya, tetapi Thanos telah menghancurkan batu tersebut untuk mencegah digunakan kembali. Thor yang marah akhirnya memenggal Thanos.</item>
+
+        <item>Dalam Abad Kegelapan, Ratu Darah Nimue yang jahat melepaskan tulah di Inggris sampai Raja Arthur menghentikannya dengan bantuan Ganeida, seorang anggota coven-nya. Arthur menggunakan Excalibur untuk memotong-motong Nimue, dan menyembunyikan jenazahnya di seluruh Inggris.</item>
+
+        <item>Empat belas tahun sudah Sarah (Cornelia Agatha) pergi tanpa kabar dan perpisahan yang jelas, menyimpan kerinduan dalam hati Doel (H. Rano Karno) yang sudah berumah tangga dengan Zaenab (Maudy Koesnaedi). Melalui Hans (Adam Jagwani), Sarah meminta Doel dibawa ke Belanda. untuk mempertemukannya dengan Dul (Rey Bong), anak hasil pernikahannya dengan Doel. Maka, dengan dalih urusan bisnis, Hans mengundang Doel datang ke Belandasibnya sebagai bangsa. </item>
+
+        <item>Tak lama setelah peristiwa Avengers: Endgame, Peter Parker, yang berduka atas kematian mentornya Tony Stark, melakukan perjalanan sekolah ke Eropa dengan teman-teman sekelasnya. Saat di luar negeri, ia direkrut oleh Nick Fury untuk bekerja sama dengan Quentin Beck, juga dikenal sebagai Mysterio, seorang ahli tipu daya dan ilusi untuk melawan Elementals.</item>
+
+        <item>Ribuan tahun yang lalu, lima suku di Afrika berperang dalam memperebutkan sebuah meteor yang mengandung vibranium di dalamnya. Seorang prajurit kemudian menelan "herba berbentuk hati" yang terkena efek logam dan memperoleh kemampuan manusia super yang membuatnya menjadi "Black Panther" pertama. Ia mempersatukan semua suku, kecuali Suku Jabari untuk membentuk sebuah negara yang dinamakan Wakanda.</item>
+
+        <item>Sisa-sisa pasukan Frieza, yang dipimpin oleh seorang alien bernama Sorbet, menuju ke Bumi di mana mereka meyakinkan Pilaf, Mai, dan Shu, yang telah mengumpulkan Bola Naga, untuk memanggil naga yang dianugerahi Shenron. Sorbet membuat harapan untuk menghidupkan kembali Frieza, tetapi Shenron hanya bisa membawa
+            dia hidup kembali dalam bentuk potongan-potongan yang dipotong Future Trunks, yang dirangkai oleh para pelayan Sorbets menggunakan teknologi canggih mereka selama dua bulan berikutnya. Setelah dipulihkan, Frieza berencana membalas dendam terhadap para Super Saiyan, tetapi setelah mengetahui bahwa Goku semakin kuat hingga mengalahkan Majin Buu dan melawan Beerus, Dewa Kehancuran menjadi jalan buntu (karena Buu dan Beerus adalah satu-satunya dua makhluk di alam semesta Frieza diperingatkan oleh ayahnya untuk tidak menyeberang), ia menunda invasi sehingga ia dapat melatih dirinya untuk pertama kalinya dalam hidupnya.</item>
+
+        <item>Rudy Habibie seorang genius ahli pesawat terbang yang punya mimpi besar: berbakti kepada bangsa Indonesia dengan membuat pesawat terbang untuk menyatukan Indonesia. Sedangkan Ainun adalah seorang dokter muda cerdas yang dengan jalur karier terbuka lebar untuknya.
+        Pada tahun 1962, dua kawan SMP ini bertemu lagi di Bandung. Habibie jatuh cinta seketika pada Ainun yang baginya semanis gula. Tapi Ainun, dia tak hanya jatuh cinta, dia iman pada visi dan mimpi Habibie. Mereka menikah dan terbang ke Jerman.</item>
+        <item>Meirose (Raline Shah) datang kembali ke rumah Pras (Fedi Nuril) dan Arini (Laudya Cynthia Bella). Kedatangannya bermaksud untuk mengambil Akbar, putranya yang selama ini dirawat oleh pasangan suami istri tersebut. Namun kali ini Arini membujuk dan meminta Meirose untuk kembali kepada Pras.
+            Meirose pun dalam kebimbangan. Ia kini ragu dengan pilihan hidupnya antara menjalani masa depan yang ia sendiri tak tahu seperti apa jadinya, atau kembali pada Pras namun tak sampai hati merusak kebahagiaan Arini. Meirose makin bingung saat Pras, pria yang masih dicintainya muncul di depannya.</item>
+
+    </string-array>
+    <string-array name="data_sutradara_movie">
+        <item>Guy Ritchie</item>
+        <item>Anna Boden Ryan Fleck</item>
+        <item>Dean DeBlois</item>
+        <item>Anthony Russo Joe Russo</item>
+        <item>Neil Marshall</item>
+        <item>H.Rano Karno</item>
+        <item>Jon Watts</item>
+        <item>Ryan Coogler</item>
+        <item>Tadayoshi Yamamuro</item>
+        <item>Faozan Rizal</item>
+        <item>Hanung Bramantyo</item>
+
+    </string-array>
+    <string-array name="data_tahun_movie">
+        <item>24 Mei 2019</item>
+        <item>8 Maret 2019</item>
+        <item>22 February 2019</item>
+        <item>24 April 2019</item>
+        <item>9 April 2019</item>
+        <item>2 Agustus 2018</item>
+        <item>2 Juli 2019</item>
+        <item>29 Januari 2018</item>
+        <item>18 April 2015</item>
+        <item>20 Desember 2012</item>
+        <item>9 Februari 2017</item>
+
+    </string-array>
+    <array name="data_photo_movie">
+        <item>@drawable/aladin</item>
+        <item>@drawable/captainmarvel</item>
+        <item>@drawable/dragon</item>
+        <item>@drawable/endgame</item>
+        <item>@drawable/hellboy</item>
+        <item>@drawable/sidoel</item>
+        <item>@drawable/spiderman</item>
+        <item>@drawable/blackpanther</item>
+        <item>@drawable/dragonball</item>
+        <item>@drawable/habibie</item>
+        <item>@drawable/surga</item>
+    </array>
+
+    //-==================================================================================================================================
+
+    <string-array name="data_name_tv">
+        <item>All american</item>
+        <item>2 Broke girls</item>
+        <item>Fringe</item>
+        <item>Lagasa de Papel</item>
+        <item>Dc Legends</item>
+        <item>Lost</item>
+        <item>The Tick</item>
+        <item>Psych</item>
+        <item>Sherlock</item>
+        <item>Timeless</item>
+        <item>Titans</item>
+
+    </string-array>
+    <string-array name="data_description_tv">
+        <item>All American adalah serial drama televisi Amerika, dibuat oleh April Blair yang ditayangkan perdana di The CW pada 10 Oktober 2018.</item>
+        <item>2 Broke Girls adalah komsit (komedi situasi) televisi Amerika Serikat diciptakan untuk Warner Bros. Television oleh Michael Patrick King dan Whitney Cummings.</item>
+        <item>Fringe adalah serial televisi fiksi ilmiah Amerika yang dibuat oleh J. J. Abrams, Alex Kurtzman, dan Roberto Orci.</item>
+        <item>Sebuah CASA DE PAPEL musim 2 adalah drama kejahatan Spanyol yang layak untuk pesta yang memiliki penggemar menyetel ke dalam jutaan mereka. Dua musim pertama di Netflix sekarang.</item>
+        <item>DCs Legends of Tomorrow, atau sekadar Legends of Tomorrow, adalah serial televisi superhero Amerika yang dikembangkan oleh Greg Berlanti.</item>
+        <item>Lost adalah serial televisi Amerika Serikat mengenai sekelompok orang yang selamat dari kecelakaan pesawat terbang saat perjalanan dari Sydney ke Los Angeles.</item>
+        <item>The Tick adalah serial televisi web Amerika yang dibuat untuk Amazon Video oleh Ben Edlund, berdasarkan karakter buku komiknya dengan nama yang sama.</item>
+        <item>Psych adalah serial televisi drama komedi detektif Amerika yang dibuat oleh Steve Franks dan disiarkan di USA Network.</item>
+        <item>Sherlock adalah serial televisi drama kriminal Britania Raya yang mengadaptasi kisah petualangan Sherlock Holmes karya Sir Arthur Conan Doyle secara kontemporer.</item>
+        <item>Timeless adalah serial drama perjalanan waktu fiksi ilmiah Amerika yang ditayangkan perdana di NBC pada 3 Oktober 2016.</item>
+        <item>Titans adalah serial televisi web Amerika yang dibuat oleh Akiva Goldsman, Geoff Johns, dan Greg Berlanti untuk DC Universe.</item>
+
+    </string-array>
+    <string-array name="data_sinopsis_tv">
+        <item>"Ketika seorang pemain sepak bola Amerika yang sedang naik daun dari LA Selatan direkrut untuk bermain di Beverly Hills High, kemenangan, kekalahan dan pergumulan dua keluarga dari dunia Crenshaw dan Beverly Hills yang sangat berbeda mulai bertabrakan. Terinspirasi oleh kehidupan pemain sepak bola profesional Spencer Paysinger.</item>
+
+        <item>Serial ini menceritakan kehidupan dua pelayan di usia 20-an (di awal seri): Max Black (Kat Dennings), anak dari seorang ibu kelas pekerja yang miskin dan ayah yang tidak dikenal, dan Caroline Channing (Beth Behrs), yang terlahir kaya tetapi sekarang dipermalukan dan tidak punya uang karena ayahnya, Martin Channing, ketahuan menjalankan skema Ponzi Bernard Madoff. Keduanya bekerja bersama di sebuah restoran Brooklyn, segera menjadi teman sekamar dan teman sambil membangun menuju impian mereka suatu hari akan membuka toko kue.</item>
+
+        <item>Fringe mengikuti tugas Divisi Fringe, Satuan Tugas Gabungan Federal yang didukung terutama oleh Biro Investigasi Federal, yang mencakup Agen Olivia Dunham; Walter Bishop, ilmuwan gila tipikal; dan Peter Bishop, putra Walter yang terasing dan jack-of-all-trade.</item>
+
+        <item>Berbicara pada pengumuman bulan lalu, Ted Sarandos, Chief Content Officer di Netflix mengatakan: "Dengan lebih dari 100 proyek Eropa diluncurkan tahun ini, kami berkomitmen untuk menjadi suara untuk hiburan Eropa.</item>
+
+        <item>Di musim kedua, dengan Time Masters dikalahkan, tim menjaga timeline mereka sendiri, dan mengatasi absennya Rip setelah dia menghilang. White Canary (Caity Lotz) menjadi pemimpin legenda. Namun, mereka dihadang oleh Legiun Doom, tim penjelajah waktu yang dipimpin oleh Reverse Flash (Eobard Thawne), yang telah merekrut versi Damien Darhk, Malcolm Merlyn, dan Leonard Snart untuk menemukan Biblical Spear of Destiny, yang dengannya mereka dapat mengubah nasib mereka.</item>
+
+        <item>Musim 1 dimulai setelah kecelakaan pesawat, yang menyebabkan penumpang Oceanic Airlines penerbangan 815 yang selamat terdampar di pulau yang tampaknya tidak berpenguni. Jack Shepard, seorang doktor menjadi pemimpin. Keselamatan mereka terancam oleh berbagai wujud misterius termasuk beruang kutub, makhluk tak terlihat yang berkeliaran di hutan ("Smoke Monster"), dan penghuni jahat yang dikenal sebagai "The Others". </item>
+
+        <item>Dalam sebuah dunia di mana pahlawan super dan super super nyata, suhu temporer Arthur yang tidak sederhana trauma dengan supervillain The Terror, setelah menyaksikan tindakannya menyebabkan kematian ayahnya ketika dia masih kecil. Sementara pihak berwenang dan superian Superian percaya Teror telah mati, Arthur melacak bukti teori konspirasi bahwa ia masih hidup.</item>
+
+        <item>Sebagian besar episode dimulai dengan pembukaan dingin dalam bentuk kilas balik ke masa kecil Shawn dan Gus. Kilas balik biasanya melibatkan Shawn dan Gus diajar pelajaran oleh Henry Spencer muda (ayah Shawn), yang berharap putranya akan mengikuti jejaknya dan menjadi seorang petugas penegak hukum. Pelajaran ini sering memainkan peran untuk klimaks dari episode tersebut. Sebagai seorang anak, Shawn diajari oleh Henry untuk mengasah kemampuan pengamatan dan deduksi, sering menggunakan permainan dan tantangan untuk mengujinya. Setiap kilas balik juga menetapkan tema untuk episode tersebut.</item>
+
+        <item>Serial drama yang dibuat atas prakarsa Steven Moffat dan Mark Gatiss ini dibintangi oleh Benedict Cumberbatch sebagai Sherlock Holmes dan Martin Freeman sebagai dr. Watson. Hingga kini, sembilan episode telah diproduksi, tiga episode seri pertama ditayangkan pada tahun 2010, tiga episode seri kedua pada tahun 2012, dan tiga episode seri ketiga pada tahun 2014. Seri ketiganya menjadi serial drama yang paling banyak ditonton di Britania Raya sejak 2001.</item>
+
+        <item>Meskipun NBC membatalkan seri setelah satu musim, tiga hari kemudian, setelah negosiasi dengan Sony Pictures Television, NBC memperbarui seri untuk musim kedua sepuluh episode, yang ditayangkan perdana pada 11 Maret 2018. Pada Juni 2018, seri dibatalkan lagi oleh NBC. Pada bulan Juli, NBC mengumumkan telah memerintahkan final dua bagian untuk menyimpulkan seri, yang ditayangkan pada 20 Desember 2018.</item>
+        <item>Titans berfokus pada sekelompok pahlawan super muda yang membentuk tim pahlawan super tituler untuk memerangi kejahatan dan bahaya lainnya. Inkarnasi pertama tim yang muncul dalam seri ini terdiri dari Dick Grayson, mantan mitra main hakim sendiri Batman yang menjadi detektif polisi, Kory Anders, seorang ekstraterestrial yang terkena amnesia, Rachel Roth, seorang empati yang dikejar oleh pasukan berbahaya, dan Garfield "Gar" Logan, seorang shapeshifter yang sebelumnya dengan Patroli Doom.</item>
+
+    </string-array>
+    <string-array name="data_sutradara_tv">
+        <item>Ramsey Nickell</item>
+        <item>Chris La Fountaine</item>
+        <item>J. J. Abrams</item>
+        <item>Anthony Russo Joe Russo</item>
+        <item>Grainne Godfree</item>
+        <item>H.Rano Karno</item>
+        <item>Jon Watts</item>
+        <item>Ryan Coogler</item>
+        <item>Tadayoshi Yamamuro</item>
+        <item>Faozan Rizal</item>
+        <item>Hanung Bramantyo</item>
+
+    </string-array>
+    <string-array name="data_tahun_tv">
+        <item>10 October 2018</item>
+        <item>19 September 2011</item>
+        <item>9 September 2008</item>
+        <item>24 April 2019</item>
+        <item>9 April 2019</item>
+        <item>2 Agustus 2018</item>
+        <item>2 Juli 2019</item>
+        <item>29 Januari 2018</item>
+        <item>18 April 2015</item>
+        <item>20 Desember 2012</item>
+        <item>9 Februari 2017</item>
+
+    </string-array>
+    <array name="data_photo_tv">
+        <item>@drawable/allamerican</item>
+        <item>@drawable/brokegirls</item>
+        <item>@drawable/fringe</item>
+        <item>@drawable/legasa</item>
+        <item>@drawable/legends</item>
+        <item>@drawable/lost</item>
+        <item>@drawable/overkill</item>
+        <item>@drawable/psych</item>
+        <item>@drawable/sherlock</item>
+        <item>@drawable/timeless</item>
+        <item>@drawable/titans</item>
+
+    </array>
+</resources>

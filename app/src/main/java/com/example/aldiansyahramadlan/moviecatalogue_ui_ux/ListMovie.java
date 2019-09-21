@@ -1,10 +1,14 @@
 package com.example.aldiansyahramadlan.moviecatalogue_ui_ux;
 
 
+import android.arch.lifecycle.Observer;
+import android.arch.lifecycle.ViewModelProviders;
 import android.content.Context;
 import android.content.Intent;
 import android.content.res.TypedArray;
+import android.os.Build;
 import android.os.Bundle;
+import android.os.Handler;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -13,84 +17,106 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ListView;
+import android.widget.ProgressBar;
+import android.support.annotation.NonNull;
+import android.support.annotation.Nullable;
+
+import com.example.aldiansyahramadlan.moviecatalogue_ui_ux.ViewModel.MoviesModel;
+import com.example.aldiansyahramadlan.moviecatalogue_ui_ux.adapter.MovieAdapter;
+import com.example.aldiansyahramadlan.moviecatalogue_ui_ux.model.Movies;
 
 import java.util.ArrayList;
+import java.util.Objects;
 
 
 /**
  * A simple {@link Fragment} subclass.
  */
 public class ListMovie extends Fragment {
-    private String[] dataName;
-    private String[] dataDescription;
-    private String[] dataSinopsis;
-    private String[] dataSutradara;
-    private String[] dataTahun;
-    private TypedArray dataPhoto;
-    private MovieAdapter adapter;
-    private ArrayList<Movie> movies;
-    private Context context;
-    private RecyclerView rvCategory;
 
-    private ArrayList<Movie> listMovies  = new ArrayList<>();
+    private RecyclerView rvCategory;
+    private ProgressBar progressBar;
+    private MovieAdapter movieAdapter;
+    private MoviesModel moviesModel;
+
     public ListMovie() {
         // Required empty public constructor
     }
 
+    private Observer<ArrayList<Movies>> getMovies = new Observer<ArrayList<Movies>>() {
+        @Override
+        public void onChanged(ArrayList<Movies> moviesItem) {
+            if (moviesItem != null) {
+                movieAdapter.setWord(getResources().getString(R.string.choose));
+                movieAdapter.setMovies(moviesItem);
+                progressBar.setVisibility(View.GONE);
+            }
+
+//            showLoading(false);
+
+        }
+    };
+
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
+
+        movieAdapter = new MovieAdapter(getActivity());
+        progressBar = view.findViewById(R.id.progressBar);
+
+        rvCategory = view.findViewById(R.id.rv_category);
+        rvCategory.setLayoutManager(new LinearLayoutManager(getActivity()));
+        rvCategory.setHasFixedSize(true);
+        rvCategory.setAdapter(movieAdapter);
+
+        progressBar = view.findViewById(R.id.progressBar);
+        progressBar.bringToFront();
+    }
+
+    @Override
+    public void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+
+        // MainViewModel Instance
+            moviesModel = ViewModelProviders.of(Objects.requireNonNull(getActivity())).get(MoviesModel.class);
+    }
+
+    @Override
+    public void onActivityCreated(@Nullable Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
+
+        // Observer
+        moviesModel.getMovies().observe(Objects.requireNonNull(getActivity()), getMovies);
+
+        // Display The Items
+        moviesModel.setMovies();
+    }
+
+    @Override
+    public void onDestroyView() {
+        super.onDestroyView();
+
+        // Unsubscribing The Observer
+        moviesModel.getMovies().removeObserver(getMovies);
+    }
+
+    @Override
+    public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-
-        View rootView = inflater.inflate(R.layout.fragment_list_movie, container, false);
-        prepare();
-        addItem();
-
-        this.context = getActivity();
-
-        rvCategory = rootView.findViewById(R.id.rv_category);
-        rvCategory.setHasFixedSize(true);
-
-        listMovies.addAll(movies);
-
-        showRecyclerList();
-
-        return rootView;
+        return inflater.inflate(R.layout.fragment_list_movie, container, false);
     }
 
-    private void prepare() {
-        dataName = getResources().getStringArray(R.array.data_name_movie);
-        dataDescription = getResources().getStringArray(R.array.data_description_movie);
-        dataPhoto = getResources().obtainTypedArray(R.array.data_photo_movie);
-        dataSinopsis = getResources().getStringArray(R.array.data_sinopsis_movie);
-        dataSutradara = getResources().getStringArray(R.array.data_sutradara_movie);
-        dataTahun = getResources().getStringArray(R.array.data_tahun_movie);
-    }
 
-    private void addItem() {
-        movies = new ArrayList<>();
 
-        for (int i = 0; i < dataName.length; i++) {
-            Movie movie = new Movie();
-            movie.setPhoto(dataPhoto.getResourceId(i, -1));
-            movie.setName(dataName[i]);
-            movie.setDescription(dataDescription[i]);
-            movie.setSinopsis(dataSinopsis[i]);
-            movie.setSutradara(dataSutradara[i]);
-            movie.setTahun(dataTahun[i]);
-            movies.add(movie);
+
+    private void showLoading(Boolean state) {
+        if (state) {
+            progressBar.setVisibility(View.VISIBLE);
+        } else {
+            progressBar.setVisibility(View.GONE);
         }
-
-
-    }
-
-    private void showRecyclerList() {
-        rvCategory.setLayoutManager(new LinearLayoutManager(getActivity()));
-        ListAdapter listAdapter = new ListAdapter(getActivity());
-        listAdapter.setMovies(listMovies);
-        listAdapter.setWord(getResources().getString(R.string.choose));
-        rvCategory.setAdapter(listAdapter);
     }
 
 }

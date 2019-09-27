@@ -1,4 +1,13 @@
 <resources>
+    <string name="add_fav">Tambah Favorit</string>
+    <string name="delete_fav">Hapus Favorit</string>
+    <string name="notif_failed_delete">Gagal Hapus Data</string>
+    <string name="succes_add_data">Berhasil Menambah Film</string>
+    <string name="failed_add_data">Gagal Menambah Film</string>
+
+    <string name="succes_add_data_tv">Berhasil Menambah TV</string>
+    <string name="failed_add_data_tv">Gagal Menambah TV</string>
+
     <string name="app_name">Katalog Film</string>
     <string name="title_home">Beranda</string>
     <string name="title_dashboard">Dasbor</string>

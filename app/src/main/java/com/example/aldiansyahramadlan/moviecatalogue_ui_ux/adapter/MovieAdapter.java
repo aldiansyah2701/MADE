@@ -51,6 +51,12 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.CategoryView
         this.word = word;
     }
 
+    private boolean isFav;
+    public boolean isOnFavorite(boolean value){
+        this.isFav=value;
+        return value;
+    }
+
 
     @NonNull
     @Override
@@ -94,8 +100,10 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.CategoryView
                 movie.setTitle(getMovies().get(i).getTitle());
                 movie.setPoster(getMovies().get(i).getPoster());
                 movie.setOverview(getMovies().get(i).getOverview());
-
+                movie.setOnfavorites(isFav);
                 move.putExtra(DetailMovie.EXTRA_MOVIE,movie);
+                move.putExtra(DetailMovie.EXTRA_POSITION,getMovies().get(i).getId());
+
                 context.startActivity(move);
             }
         }));

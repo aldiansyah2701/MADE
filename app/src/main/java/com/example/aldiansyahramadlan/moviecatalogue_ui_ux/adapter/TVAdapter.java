@@ -52,6 +52,11 @@ public class TVAdapter extends RecyclerView.Adapter<TVAdapter.CategoryViewHolder
         this.word = word;
     }
 
+    private boolean isFav;
+    public boolean isOnFavorite(boolean value){
+        this.isFav=value;
+        return value;
+    }
 
     @NonNull
     @Override
@@ -86,13 +91,15 @@ public class TVAdapter extends RecyclerView.Adapter<TVAdapter.CategoryViewHolder
             @Override
             public void onItemClicked(View view, int position) {
                 Toast.makeText(context, word + " "+getTV().get(position).getTitle(), Toast.LENGTH_SHORT).show();
-                Intent move = new Intent(context, DetailMovie.class);
-                Movies tv = new Movies();
+                Intent move = new Intent(context, DetailTV.class);
+                TVShow tv = new TVShow();
 
                 tv.setTitle(getTV().get(i).getTitle());
                 tv.setPoster(getTV().get(i).getPoster());
                 tv.setOverview(getTV().get(i).getOverview());
-                move.putExtra(DetailMovie.EXTRA_MOVIE,tv);
+                tv.setOnfavorites(isFav);
+                move.putExtra(DetailTV.EXTRA_TV,tv);
+                move.putExtra(DetailTV.EXTRA_POSITION,getTV().get(i).getId());
                 context.startActivity(move);
             }
         }));

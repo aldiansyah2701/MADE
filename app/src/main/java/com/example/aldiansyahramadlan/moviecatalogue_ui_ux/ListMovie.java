@@ -10,6 +10,7 @@ import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.v4.app.Fragment;
+import android.support.v7.widget.AppCompatImageButton;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -20,6 +21,7 @@ import android.widget.ListView;
 import android.widget.ProgressBar;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
+import android.widget.Toast;
 
 import com.example.aldiansyahramadlan.moviecatalogue_ui_ux.ViewModel.MoviesModel;
 import com.example.aldiansyahramadlan.moviecatalogue_ui_ux.adapter.MovieAdapter;
@@ -49,6 +51,7 @@ public class ListMovie extends Fragment {
             if (moviesItem != null) {
                 movieAdapter.setWord(getResources().getString(R.string.choose));
                 movieAdapter.setMovies(moviesItem);
+                movieAdapter.isOnFavorite(false);
                 progressBar.setVisibility(View.GONE);
             }
 
@@ -72,6 +75,15 @@ public class ListMovie extends Fragment {
 
         progressBar = view.findViewById(R.id.progressBar);
         progressBar.bringToFront();
+
+//        AppCompatImageButton fav = view.findViewById(R.id.fav);
+//        fav.setOnClickListener(new View.OnClickListener(){
+//
+//            @Override
+//            public void onClick(View v) {
+//                Toast.makeText(getActivity(),  "LOVE", Toast.LENGTH_SHORT).show();
+//            }
+//        });
     }
 
     @Override

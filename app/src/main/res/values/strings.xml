@@ -1,4 +1,13 @@
 <resources>
+    <string name="add_fav">Add Favorite</string>
+    <string name="delete_fav">Delete Favorite</string>
+    <string name="notif_failed_delete">Failed delete data</string>
+    <string name="succes_add_data">Success Add Movie</string>
+    <string name="failed_add_data">Failed Add Movie</string>
+
+    <string name="succes_add_data_tv">Success Add TV</string>
+    <string name="failed_add_data_tv">Failed Add TV</string>
+
     <string name="app_name">Movie Catalogue</string>
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>

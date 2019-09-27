@@ -25,6 +25,7 @@ import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
     BottomNavigationView navigation;
+    private int flagMenuFav = 1;
 
     private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
             = new BottomNavigationView.OnNavigationItemSelectedListener() {
@@ -42,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
                     getSupportFragmentManager().beginTransaction()
                             .replace(R.id.container_layout, fragment, fragment.getClass().getSimpleName())
                             .commit();
-
+                    flagMenuFav = 1;
                     return true;
                 case R.id.navigation_tv:
 
@@ -50,6 +51,7 @@ public class MainActivity extends AppCompatActivity {
                     getSupportFragmentManager().beginTransaction()
                             .replace(R.id.container_layout, fragment, fragment.getClass().getSimpleName())
                             .commit();
+                    flagMenuFav = 2;
                     return true;
             }
             return false;
@@ -83,6 +85,18 @@ public class MainActivity extends AppCompatActivity {
         if (item.getItemId() == R.id.action_change_settings) {
             Intent mIntent = new Intent(Settings.ACTION_LOCALE_SETTINGS);
             startActivity(mIntent);
+        }else if(item.getItemId() == R.id.love){
+            if(flagMenuFav==1){
+                Intent intent = new Intent(this, ListMovieFavorit.class);
+                startActivity(intent);
+                Toast.makeText(this,  "LOVE 1", Toast.LENGTH_SHORT).show();
+            }else if(flagMenuFav==2){
+                Intent intent = new Intent(this, ListTVFavorit.class);
+                startActivity(intent);
+                Toast.makeText(this,  "LOVE 2", Toast.LENGTH_SHORT).show();
+            }
+
+
         }
         return super.onOptionsItemSelected(item);
     }

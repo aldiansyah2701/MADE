@@ -11,10 +11,19 @@ public class Movies implements Parcelable {
     private String released;
     private String overview;
     private String poster;
+    private boolean isOnfavorites;
 
 
     public Movies(){
 
+    }
+
+    public boolean isOnfavorites() {
+        return isOnfavorites;
+    }
+
+    public void setOnfavorites(boolean onfavorites) {
+        isOnfavorites = onfavorites;
     }
 
     public Movies(JSONObject object) {
@@ -59,6 +68,13 @@ public class Movies implements Parcelable {
         return title;
     }
 
+    public String getReleased() {
+        return released;
+    }
+
+    public void setReleased(String released) {
+        this.released = released;
+    }
 
     public String getOverview() {
         return overview;
@@ -81,19 +97,19 @@ public class Movies implements Parcelable {
         dest.writeString(this.released);
         dest.writeString(this.overview);
         dest.writeString(this.poster);
-
+        dest.writeByte(this.isOnfavorites ? (byte) 1 : (byte) 0);
     }
 
-    private Movies(Parcel in) {
+    protected Movies(Parcel in) {
         this.id = in.readInt();
         this.title = in.readString();
         this.released = in.readString();
         this.overview = in.readString();
         this.poster = in.readString();
-
+        this.isOnfavorites = in.readByte() != 0;
     }
 
-    public static final Parcelable.Creator<Movies> CREATOR = new Parcelable.Creator<Movies>() {
+    public static final Creator<Movies> CREATOR = new Creator<Movies>() {
         @Override
         public Movies createFromParcel(Parcel source) {
             return new Movies(source);

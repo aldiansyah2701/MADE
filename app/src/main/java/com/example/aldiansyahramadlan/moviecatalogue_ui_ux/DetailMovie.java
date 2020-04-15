@@ -128,7 +128,9 @@ public class DetailMovie extends AppCompatActivity implements View.OnClickListen
                     movieFavorite.setId((int) result);
                     setResult(RESULT_ADD, intent);
                     Toast.makeText(DetailMovie.this, getString(R.string.succes_add_data), Toast.LENGTH_SHORT).show();
-                    finish();
+//                    finish();
+                    intent = new Intent(this, MainActivity.class);
+                    startActivity(intent);
                 } else {
                     Toast.makeText(DetailMovie.this, getString(R.string.failed_add_data), Toast.LENGTH_SHORT).show();
                 }

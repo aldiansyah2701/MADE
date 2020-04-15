@@ -25,6 +25,7 @@ import android.widget.Toast;
 
 import com.example.aldiansyahramadlan.moviecatalogue_ui_ux.ViewModel.MoviesModel;
 import com.example.aldiansyahramadlan.moviecatalogue_ui_ux.adapter.MovieAdapter;
+import com.example.aldiansyahramadlan.moviecatalogue_ui_ux.database.MovieFavoriteHelper;
 import com.example.aldiansyahramadlan.moviecatalogue_ui_ux.model.Movies;
 
 import java.util.ArrayList;
@@ -40,7 +41,6 @@ public class ListMovie extends Fragment {
     private ProgressBar progressBar;
     private MovieAdapter movieAdapter;
     private MoviesModel moviesModel;
-
     public ListMovie() {
         // Required empty public constructor
     }

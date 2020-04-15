@@ -1,4 +1,24 @@
 <resources>
+    <string name="now_playing">TAYANG SEKARANG</string>
+    <string name="up_coming">TAYANG NANTI</string>
+
+    <string name="release_reminder">Pengingat Film Baru</string>
+    <string name="summary_release_reminder">Kamu akan menerima informasi rilis film harian setiap jam 8 pagi</string>
+    <string name="key_release_reminder">key_release_reminder</string>
+    <string name="daily_reminder">Pengingat Harian</string>
+    <string name="summary_daily_reminder">Kamu akan menerima pengingat harian setiap jam 7 pagi</string>
+    <string name="pref_title_notifications">Notifikasi</string>
+    <string name="lang">Bahasa</string>
+    <string name="summary_lang">Pilih Bahasa</string>
+    <string name="key_lang">key_lang</string>
+    <string name="lang_title">Bahasa</string>
+    <string name="today_reminder">key_today_reminder</string>
+    <string name="up_notif_on">Notif yang akan datang AKTIF</string>
+    <string name="up_notif_off">Notif yang akan datang MATI</string>
+    <string name="judul_daily">Apa yang baru?</string>
+    <string name="desk_daily">Cek film ter-update!</string>
+    <string name="today_release">film telah rilis</string>
+
     <string name="add_fav">Tambah Favorit</string>
     <string name="delete_fav">Hapus Favorit</string>
     <string name="notif_failed_delete">Gagal Hapus Data</string>
@@ -26,7 +46,7 @@
     <string name="choose">memilih</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="change_language_settings">Ubah Pengaturan Bahasa</string>
+    <string name="change_language_settings">Ubah Pengaturan</string>
     <string name="name_movies">Nama Movie</string>
     <string name="lorem">Film bioskop</string>
 

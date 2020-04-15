@@ -21,6 +21,8 @@ import com.example.aldiansyahramadlan.moviecatalogue_ui_ux.database.TVShowFavori
 import com.example.aldiansyahramadlan.moviecatalogue_ui_ux.model.Movies;
 import com.example.aldiansyahramadlan.moviecatalogue_ui_ux.model.TVShow;
 
+import static com.example.aldiansyahramadlan.moviecatalogue_ui_ux.DetailMovie.EXTRA_MOVIE_FAVORITE;
+
 public class DetailTV extends AppCompatActivity implements View.OnClickListener {
 
     ImageView photo;
@@ -31,6 +33,7 @@ public class DetailTV extends AppCompatActivity implements View.OnClickListener 
     public static final int RESULT_ADD = 101;
 
     private TVShowFavoriteHelper tvShowFavoriteHelper;
+    private MovieFavoriteHelper movieFavoriteHelper;
 
     public static final String EXTRA_TV= "extra_tv";
     Button btnSaveTV, btnDeleteMovie;
@@ -39,6 +42,7 @@ public class DetailTV extends AppCompatActivity implements View.OnClickListener 
     public static final String EXTRA_POSITION = "extra_position";
 
     private TVShow tvShowFavorite;
+    private Movies movieFavorite;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -79,17 +83,22 @@ public class DetailTV extends AppCompatActivity implements View.OnClickListener 
         btnDeleteMovie = findViewById(R.id.btn_delete);
         btnDeleteMovie.setOnClickListener(this);
 
-        tvShowFavoriteHelper = TVShowFavoriteHelper.getInstance(getApplicationContext());
-        tvShowFavoriteHelper.open();
+//        tvShowFavoriteHelper = TVShowFavoriteHelper.getInstance(getApplicationContext());
+//        tvShowFavoriteHelper.open();
 
-        tvShowFavorite = getIntent().getParcelableExtra(EXTRA_TV_FAVORITE);
+        movieFavoriteHelper = MovieFavoriteHelper.getInstance(getApplicationContext());
+        movieFavoriteHelper.open();
+
+//        tvShowFavorite = getIntent().getParcelableExtra(EXTRA_TV_FAVORITE);
+        movieFavorite = getIntent().getParcelableExtra(EXTRA_MOVIE_FAVORITE);
         if (tv.isOnfavorites()) {
             flag = getIntent().getIntExtra(EXTRA_POSITION, 0);
             isFav = true;
             btnSaveTV.setVisibility(View.GONE);
 
         } else {
-            tvShowFavorite = new TVShow();
+//            tvShowFavorite = new TVShow();
+            movieFavorite = new Movies();
             btnDeleteMovie.setVisibility(View.GONE);
         }
 
@@ -110,32 +119,47 @@ public class DetailTV extends AppCompatActivity implements View.OnClickListener 
             String overview     = sinopsis.getText().toString().trim();
             String url_image    = urlPhoto.trim();
 
-            tvShowFavorite.setId(position);
-            tvShowFavorite.setTitle(title);
-            tvShowFavorite.setOverview(overview);
-            tvShowFavorite.setPoster(url_image);
+//            tvShowFavorite.setId(position);
+//            tvShowFavorite.setTitle(title);
+//            tvShowFavorite.setOverview(overview);
+//            tvShowFavorite.setPoster(url_image);
+
+            movieFavorite.setId(position);
+            movieFavorite.setTitle(title);
+            movieFavorite.setOverview(overview);
+            movieFavorite.setPoster(url_image);
 
             Intent intent = new Intent();
-            intent.putExtra(EXTRA_TV_FAVORITE, tvShowFavorite);
+//            intent.putExtra(EXTRA_TV_FAVORITE, tvShowFavorite);
+//            intent.putExtra(EXTRA_POSITION, flag);
+
+            intent.putExtra(EXTRA_MOVIE_FAVORITE, movieFavorite);
             intent.putExtra(EXTRA_POSITION, flag);
 
             if (!isFav) {
-
-                long result = tvShowFavoriteHelper.insertTv(tvShowFavorite);
+                long result = movieFavoriteHelper.insertMovie(movieFavorite);
+//                long result = tvShowFavoriteHelper.insertTv(tvShowFavorite);
 
                 if (result > 0) {
-                    tvShowFavorite.setId((int) result);
+//                    tvShowFavorite.setId((int) result);
+                    movieFavorite.setId((int) result);
                     setResult(RESULT_ADD, intent);
-                    Toast.makeText(DetailTV.this, getString(R.string.succes_add_data_tv), Toast.LENGTH_SHORT).show();
-                    finish();
+                    Toast.makeText(DetailTV.this, getString(R.string.succes_add_data), Toast.LENGTH_SHORT).show();
+//                    finish();
+                    intent = new Intent(this, MainActivity.class);
+                    startActivity(intent);
                 } else {
-                    Toast.makeText(DetailTV.this, getString(R.string.failed_add_data_tv), Toast.LENGTH_SHORT).show();
+                    Toast.makeText(DetailTV.this, getString(R.string.failed_add_data), Toast.LENGTH_SHORT).show();
                 }
             }
 
         }else if(view.getId() == R.id.btn_delete){
-            tvShowFavoriteHelper = TVShowFavoriteHelper.getInstance(getApplicationContext());
-            long result = tvShowFavoriteHelper.deleteTv(position);
+//            tvShowFavoriteHelper = TVShowFavoriteHelper.getInstance(getApplicationContext());
+//            long result = tvShowFavoriteHelper.deleteTv(position);
+
+            movieFavoriteHelper = MovieFavoriteHelper.getInstance(getApplicationContext());
+            long result = movieFavoriteHelper.deleteMovie(position);
+
             if (result > 0) {
                 Intent intent = new Intent(this, MainActivity.class);
                 startActivity(intent);

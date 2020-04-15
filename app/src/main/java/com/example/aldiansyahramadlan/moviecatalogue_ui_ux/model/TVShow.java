@@ -26,8 +26,8 @@ public class TVShow implements Parcelable {
     public TVShow(JSONObject object) {
         try {
             int id = object.getInt("id");
-            String title = object.getString("name");
-            String released = object.getString("first_air_date");
+            String title = object.getString("original_title");
+            String released = object.getString("release_date");
             String overview = object.getString("overview");
             String poster = object.getString("poster_path");
 

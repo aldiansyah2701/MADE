@@ -1,4 +1,24 @@
 <resources>
+    <string name="now_playing">NOW PLAYING</string>
+    <string name="up_coming">UPCOMING</string>
+
+    <string name="release_reminder">New Movie Reminder</string>
+    <string name="summary_release_reminder">You will receive daily movie release info every 8 AM</string>
+    <string name="key_release_reminder">key_release_reminder</string>
+    <string name="daily_reminder">Daily Reminder</string>
+    <string name="summary_daily_reminder">You will reveiced daily reminder every 7 AM</string>
+    <string name="pref_title_notifications">Notifications</string>
+    <string name="lang">Language</string>
+    <string name="summary_lang">Select Language</string>
+    <string name="key_lang">key_lang</string>
+    <string name="lang_title">Language</string>
+    <string name="today_reminder">key_today_reminder</string>
+    <string name="up_notif_on">Upcoming Notif ON</string>
+    <string name="up_notif_off">Upcoming Notif OFF</string>
+    <string name="judul_daily">Whats New?</string>
+    <string name="desk_daily">Check out latest movies!</string>
+    <string name="today_release">movie just released</string>
+
     <string name="add_fav">Add Favorite</string>
     <string name="delete_fav">Delete Favorite</string>
     <string name="notif_failed_delete">Failed delete data</string>
@@ -26,7 +46,7 @@
     <string name="choose">choose</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="change_language_settings">Change Language Settings</string>
+    <string name="change_language_settings">Change Settings</string>
     <string name="name_movies">Name Movie</string>
     <string name="lorem">Movie theater</string>
 
